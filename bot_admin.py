@@ -433,9 +433,9 @@ def create_prompt_array_for_matching(self, number_of_answers):
         count += 1
         prompt_array.append(WebDriverWait (self.driver, 30).until(EC.presence_of_element_located((By.XPATH, start))).text) # might also just need to run the following sibling thing multiple times with multiple variables getting created
 
-    prompt_array[0] = prompt_array[0].split("\n", 1)[0]
-    prompt_array[1] = prompt_array[1].split("\n", 1)[0]
-    prompt_array[2] = prompt_array[2].split("\n", 1)[0]
+    for i in range(0, len(prompt_array)):
+        prompt_array[i] = prompt_array[i].split("\n", 1)[0]
+
     return prompt_array
 
 def make_final_array(self, prompt_array):
