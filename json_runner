@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python3 json_beta.py nrkorte Complication2001! "https://colostate.instructure.com/courses/147981/assignments/1896517"
+
+echo "Initializing..."
+
+# https://colostate.instructure.com/courses/147981/assignments/1896517

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+> question_bank.json
+echo '{ "questions": [' > question_bank.json
+echo '  ]' >> question_bank.json
+echo '}' >> question_bank.json
