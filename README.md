@@ -4,7 +4,7 @@ Author: Nicholas Korte
 
 GitHub - nrkorte
 
-Email - himtoo112@gmail.com
+Email - etroknick@gmail.com
 
 
 Purpose:
@@ -44,4 +44,4 @@ Disclaimer:
 
 
 Edit:
-New beta for using a JSON file to store questions in a question bank is uploaded. Usage is the same as the main python program except you will run "./json_runner" to run the program instead of "./admin". Additionally, you can run "./clear_bank" to empty the JSON file. This is a beta and I don't have access to McGraw Hill, so any problems will need to put up in an issue with a clear and concise resolution. Thanks!
+New beta for using a JSON file to store questions in a question bank is uploaded. Usage is the same as the main python program except you will run "./json_run" to run the program instead of "./admin". Additionally, you can run "./clear_bank" to empty the JSON file. This is a beta and I don't have access to McGraw Hill, so any problems will need to put up in an issue with a clear and concise resolution. Thanks!
