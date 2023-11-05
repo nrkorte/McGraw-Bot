@@ -147,7 +147,7 @@ def solve_multiple_choice_question(self, dictionary_, prompt_in_question, label)
                     i = 0
                     while i < len(list_store):
                         if str(x) == str(list_store[i]):
-                            WebDriverWait( self.driver, 1000).until(EC.element_to_be_clickable((By.XPATH, '/html/body/awd-root/div[1]/awd-app-root/div/div[2]/div/awd-main-container/div/div/div/div[1]/awd-probe-navigation/div/div[1]/awd-probe/avalon-probe-renderer/div/aa-air-item/div/div/div/div/div/div/div/div/div/div[2]/fieldset/div[' + str(i + 1) + ']'))).click()
+                            WebDriverWait( self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/awd-root/div[1]/awd-app-root/div/div[2]/div/awd-main-container/div/div/div/div[1]/awd-probe-navigation/div/div[1]/awd-probe/avalon-probe-renderer/div/aa-air-item/div/div/div/div/div/div/div/div/div/div[2]/fieldset/div[' + str(i + 1) + ']'))).click()
                         i += 1
 
 
