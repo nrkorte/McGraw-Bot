@@ -23,13 +23,21 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.service import Service as ChromeService
 
 
 class mcbot:
 
+    def set_window_position_safely(self, x, y):
+        try:
+            self.driver.set_window_position(x, y)
+        except Exception as e:
+            print(f"An error occurred while setting window position: {e}")
+
     def __init__(self):
-        self.driver = webdriver.Chrome(executable_path=r"./chromedriver.exe")
-        self.driver.set_window_position(2000, 0)
+        self.driver = webdriver.Chrome()
+        self.driver.get("https://www.google.com/")
+        self.set_window_position_safely(2000, 0)
         self.driver.maximize_window()
     
     def mcstart(self, user, passw, link):
@@ -285,8 +293,6 @@ def solve_matching_question(self, dictionary_, prompt_in_question):
         time.sleep(3)
         self.driver.refresh()
 
-# you are getting boned by the right click. revert back to the tab method of getting the right element
-
 def solve_ordering_question(self, dictionary_, prompt_in_question):
     time.sleep(4)
     prompt_in_question = parse_prompt(prompt_in_question)
@@ -472,4 +478,3 @@ if __name__ == "__main__":
     bot = mcbot()
     bot.mcstart(sys.argv[1], sys.argv[2], sys.argv[3])
     bot.mcbegin()
-    
