@@ -14,9 +14,7 @@ This is a bot that will complete your McGraw Hill Connect homework for you. This
 
 How to use:
 
-1. Install the required dependencies. You will need Python v3.1 or higher, Selenium, and a Chromedriver. I recommend you use the 
-Chromedriver I have on here. For this program to work the Chromedriver needs to be named "Chromedriver" (without quotes) and needs to be
-in the same directory as the bot. Chromedriver should have pop-ups enabled by default but you may need to turn them on manually.
+1. Install the required dependencies. To do this, download the contents of this GitHub repository and open up a terminal. Change directories until you see the files and type "./dependencies" to install all of them. After this is done, you should have everything you need to start the program. This is a LINUX-based program and needs to be run as such. This means that it can be run directly from the terminal of a Mac or Linux computer, but if you are on Windows, you will need to run it from a Linux terminal. There are many ways to go about that, but the easiest in my opinion is to run it from VSCode.
 
 [The program might take 10-15 seconds to start the first time you attempt to open Chromedriver]
 
