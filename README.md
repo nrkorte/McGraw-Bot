@@ -42,3 +42,6 @@ Disclaimer:
 
 Edit:
 A new beta for using a JSON file to store questions in a question bank is uploaded. Usage is the same as the main python program except you will run "./json_run" to run the program instead of "./admin". Additionally, you can run "./clear_bank" to empty the JSON file. This is a beta and I don't have access to McGraw Hill, so any problems will need to put up in an issue with a clear and concise resolution. Thanks!
+
+Edit 2:
+Remember that ChatGPT is your friend here, if you are struggling to get the program to start, that AI is a wonderful debugger. I will no longer be responding to user-side errors to help out. If there is a genuine issue with the code that needs fixing, please create an issue and I will do my best to answer how to fix it or I will fix it myself. Thanks!
