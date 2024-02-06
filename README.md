@@ -14,7 +14,7 @@ This is a bot that will complete your McGraw Hill Connect homework for you. This
 
 How to use:
 
-1. Install the required dependencies. To do this, download the contents of this GitHub repository and open up a terminal. Change directories until you see the files and type "./dependencies" to install all of them. After this is done, you should have everything you need to start the program. This is a LINUX-based program and needs to be run as such. This means that it can be run directly from the terminal of a Mac or Linux computer, but if you are on Windows, you will need to run it from a Linux terminal. There are many ways to go about that, but the easiest in my opinion is to run it from VSCode.
+1. Install the required dependencies. To do this, download the contents of this GitHub repository and open up a terminal. Change directories until you see the files and type `chmod 777 ./dependencies` and then `./dependencies` to install all of them. After this is done, you should have everything you need to start the program. This is a LINUX-based program and needs to be run as such. This means that it can be run directly from the terminal of a Mac or Linux computer, but if you are on Windows, you will need to run it from a Linux terminal. There are many ways to go about that, but the easiest in my opinion is to run it from VSCode.
 
 [The program might take 10-15 seconds to start the first time you attempt to open Chromedriver]
 
