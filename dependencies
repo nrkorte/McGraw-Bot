@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Install Python 3.9.x
+sudo apt update
+sudo apt install -y python3.9
+
+# Install pip for Python 3.9
+sudo apt install -y python3.9-distutils
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.9 get-pip.py
+
+# Install Selenium dependencies
+pip install selenium
+
+echo "Python 3.9.x and required dependencies installed successfully!"
