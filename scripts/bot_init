@@ -1,0 +1,19 @@
+#!/bin/bash
+# sudo apt-get update
+# sudo apt-get install python3.6
+# sudo pip install robotframework-selenium2library
+# python -m pip install pysimplegui
+
+source mcgraw_bot_init
+
+read -rep "What is your Canvas/NET-ID username?`echo $'\n> '`Username: " username
+
+read -rep "What is your Canvas/NET-ID password?`echo $'\n> '`Password: " password
+
+read -rep "What is the link to the assignment you want completed?`echo $'\n'`Example: https://colostate.instructure.com/courses/147981/assignments/1998418`echo $'\n> '`Link: " link
+
+cd "$(dirname "$0")"
+pwd
+python3 ../drivers/bot_mcgraw.py $username $password "$link"
+
+echo "Initializing..."

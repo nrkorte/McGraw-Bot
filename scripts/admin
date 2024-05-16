@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python3 ../drivers/bot_mcgraw.py username password "https://link_to_homework_on_canvas"
+
+echo "Initializing..."

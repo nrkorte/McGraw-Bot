@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python3 ../drivers/json_beta.py username password "https://example_link_to_homework_on_canvas"
+
+echo "Initializing..."
